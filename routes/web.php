@@ -16,3 +16,23 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard');
 });
+
+Route::get('/warga', function () {
+    return view('warga.index');
+});
+
+Route::get('/retribusi', function () {
+    return view('warga.retribusi');
+});
+
+Route::get('/bankSampah', function () {
+    return view('bankSampah.index');
+});
+
+Route::get('/transaksi-bankSampah', function () {
+    return view('bankSampah.transaksi');
+});
+
+Route::get('/konversi', function () {
+    return view('konversi.index');
+});
