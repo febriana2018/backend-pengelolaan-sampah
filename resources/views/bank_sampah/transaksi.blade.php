@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title')
-Daftar Bank Sampah
+Daftar Transaksi Bank Sampah
 @endsection
 
 
@@ -24,10 +24,11 @@ Daftar Bank Sampah
                 <thead class="thead-light">
                     <tr>
                         <th scope="col">No</th>
-                        <th scope="col">Nama</th>
-                        <th scope="col">No Telp</th>
-                        <th scope="col">Email</th>
-                        <th scope="col">Alamat Detail</th>
+                        <th scope="col">Nama Bank Sampah</th>
+                        <th scope="col">Tanggal Transaksi</th>
+                        <th scope="col">Jenis Sampah</th>
+                        <th scope="col">Keterangan</th>
+                        <th scope="col">Unduh Transaksi</th>
                         <th scope="col">Aksi</th>
                     </tr>
                 </thead>
@@ -36,6 +37,9 @@ Daftar Bank Sampah
                         <th scope="row">
                             1
                         </th>
+                        <td>
+                            Cek
+                        </td>
                         <td>
                             Cek
                         </td>

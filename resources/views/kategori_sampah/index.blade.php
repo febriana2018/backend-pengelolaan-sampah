@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title')
-Konversi Harga Sampah
+Kategori Sampah
 @endsection
 
 
@@ -25,7 +25,7 @@ Konversi Harga Sampah
                     <tr>
                         <th scope="col">No</th>
                         <th scope="col">Jenis Sampah</th>
-                        <th scope="col">Harga Sampah</th>
+                        <th scope="col">Harga Retribusi</th>
                         <th scope="col">Aksi</th>
                     </tr>
                 </thead>

@@ -100,6 +100,11 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link " href="/pengambilan">
+                    <i class="ni ni-single-02 text-yellow"></i> Pengambilan Sampah
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link " href="/warga">
                     <i class="ni ni-planet text-blue"></i> Daftar Warga
                 </a>
@@ -110,7 +115,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="/bankSampah">
+                <a class="nav-link " href="/bank_sampah">
                     <i class="ni ni-pin-3 text-orange"></i> Daftar Bank Sampah
                 </a>
             </li>
@@ -122,6 +127,11 @@
             <li class="nav-item">
                 <a class="nav-link " href="/konversi">
                     <i class="ni ni-single-02 text-yellow"></i> Konversi sampah
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/kategori_sampah">
+                    <i class="ni ni-single-02 text-yellow"></i> Kategori sampah
                 </a>
             </li>
         </ul>

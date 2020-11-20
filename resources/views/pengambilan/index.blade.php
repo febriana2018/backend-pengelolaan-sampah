@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title')
-Konversi Harga Sampah
+Daftar Pengambilan Sampah
 @endsection
 
 
@@ -24,9 +24,10 @@ Konversi Harga Sampah
                 <thead class="thead-light">
                     <tr>
                         <th scope="col">No</th>
-                        <th scope="col">Jenis Sampah</th>
-                        <th scope="col">Harga Sampah</th>
-                        <th scope="col">Aksi</th>
+                        <th scope="col">Nama Warga</th>
+                        <th scope="col">Nama Educator</th>
+                        <th scope="col">Waktu Pengambilan</th>
+                        <th scope="col">Status</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -41,10 +42,10 @@ Konversi Harga Sampah
                             Cek
                         </td>
                         <td>
-                            <a class="text-success" data-toggle="tooltip" data-placement="top"
-                                data-original-title="Edit"><i class="far fa-edit"></i></a>
-                            <a class="text-danger" data-toggle="tooltip" data-placement="top"
-                                data-original-title="Delete"><i class="far fa-trash-alt"></i></a>
+                            Cek
+                        </td>
+                        <td>
+                            Cek
                         </td>
                     </tr>
                 </tbody>
